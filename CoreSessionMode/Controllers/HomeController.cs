@@ -22,7 +22,7 @@ namespace CoreSessionMode.Controllers
         {
             //byte[] data = Encoding.UTF8.GetBytes("Hola mundo");
             //cache.Set("timestamp",data);
-            cache.SetString("Mensaje", "Hola Mundo");            
+            //cache.SetString("Mensaje", "Hola Mundo");            
             return View();
         }
 
